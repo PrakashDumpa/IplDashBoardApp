@@ -1,0 +1,11 @@
+/* Write your CSS here */
+.card_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+.card_heading {
+  font-size: 25px;
+}

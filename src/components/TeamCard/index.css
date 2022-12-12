@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.Link:hover {
+  text-decoration: none;
+}
+.main_card_item {
+  display: flex;
+  align-items: center;
+  /* text-decoration: none; */
+  color: white;
+}
+
+.card_image {
+  height: 100px;
+  width: 80px;
+}
+.card_item_heading {
+  font-size: 20px;
+  font-family: Bree Serif;
+}

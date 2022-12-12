@@ -1,0 +1,49 @@
+/* Write your CSS here */
+
+.latest_match_details_container {
+  background-color: #1e293b;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Bree Serif;
+}
+hr {
+  display: none;
+}
+.team_details_width {
+  width: 30%;
+}
+.image_width {
+  width: 30%;
+}
+.text_width {
+  width: 30%;
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+  .team_match_container {
+    width: 90%;
+    background-color: red;
+  }
+  .latest_match_details_container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .team_details_width {
+    width: 100%;
+  }
+  .image_width {
+    width: 100%;
+  }
+  .text_width {
+    width: 100%;
+    text-align: left;
+  }
+  .font_size {
+    font-size: 25px;
+  }
+}
